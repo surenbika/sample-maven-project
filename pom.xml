@@ -15,4 +15,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ubuntu-snapshots</name>
+        <url>http://192.168.88.129:8081/artifactory/ext-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
